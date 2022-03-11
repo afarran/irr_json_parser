@@ -1,1 +1,908 @@
-IsAdvertisedAndArinNonAuthOnly,Index,rir,bgpOrigins,prefix,prefixSortKey,goodnessOverall,routeSource,asn,rpslPk,rpkiStatus,rpkiMaxLength,routeSource,asn,rpslPk,rpkiStatus,rpkiMaxLength,routeSource,asn,rpslPk,rpkiStatus,rpkiMaxLength
+[
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [
+         21595
+      ],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "RIPE-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.147.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.147.0/24\ndescr:          BAXTER SERVICES EUROPE SA\norigin:         AS21595\nmnt-by:         AS12640-MNT\ncreated:        2007-12-21T11:42:05Z\nlast-modified:  2018-09-04T
+15:52:33Z\nsource:         RIPE-NONAUTH\nremarks:        ****************************\nremarks:        * THIS OBJECT IS MODIFIED\nremarks:        * Please note that all data that is generally regarded as personal\nremarks: 
+       * data has been removed from this object.\nremarks:        * To view the original object, please query the RIPE Database at:\nremarks:        * http://www.ripe.net/whois\nremarks:        ****************************\
+n"
+            }
+         ],
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.147.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.147.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070702\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.147.0/24",
+      "prefixSortKey": "3327759104/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "RIPE-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.157.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.157.0/24\ndescr:          BAXTER SERVICES EUROPE SA\norigin:         AS21595\nmnt-by:         AS12640-MNT\ncreated:        2014-11-10T10:19:44Z\nlast-modified:  2018-09-04T
+18:01:28Z\nsource:         RIPE-NONAUTH\nremarks:        ****************************\nremarks:        * THIS OBJECT IS MODIFIED\nremarks:        * Please note that all data that is generally regarded as personal\nremarks: 
+       * data has been removed from this object.\nremarks:        * To view the original object, please query the RIPE Database at:\nremarks:        * http://www.ripe.net/whois\nremarks:        ****************************\
+n"
+            }
+         ],
+         "RADB": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.157.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.157.0/24\ndescr:          proxy object for customer to build route filter\norigin:         AS21595\nmnt-by:         MAINT-AS8220\nchanged:        mark.borchardt@colt.net 20
+181008  #07:02:27Z\nsource:         RADB\n"
+            }
+         ]
+      },
+      "prefix": "198.89.157.0/24",
+      "prefixSortKey": "3327761664/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "warning",
+            "text": "Multiple route objects exist with different origins"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [
+         21595
+      ],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "RADB": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.142.0/24AS15924",
+               "asn": 15924,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.142.0/24\ndescr:          Vodafone Turkey Route Object\norigin:         AS15924\nmnt-by:         MAINT-AS55002\nchanged:        netops@defense.net 20190821\nsource:        
+ RADB\n"
+            },
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.142.0/24AS19905",
+               "asn": 19905,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.142.0/24\ndescr:          AC_VODAFONTU\norigin:         AS19905\nmnt-by:         MAINT-AS7786\nchanged:        wan.engineering@neustar.biz 20180425  #03:51:09Z\nsource:    
+     RADB\n"
+            }
+         ],
+         "RIPE-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.142.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.142.0/24\ndescr:          BAXTER SERVICES EUROPE SA\norigin:         AS21595\nmnt-by:         AS12640-MNT\ncreated:        2016-02-16T12:19:57Z\nlast-modified:  2018-09-04T
+18:22:48Z\nsource:         RIPE-NONAUTH\nremarks:        ****************************\nremarks:        * THIS OBJECT IS MODIFIED\nremarks:        * Please note that all data that is generally regarded as personal\nremarks: 
+       * data has been removed from this object.\nremarks:        * To view the original object, please query the RIPE Database at:\nremarks:        * http://www.ripe.net/whois\nremarks:        ****************************\
+n"
+            }
+         ]
+      },
+      "prefix": "198.89.142.0/24",
+      "prefixSortKey": "3327757824/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.151.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.151.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070702\nsource:         ARIN-NONAUTH\n"
+            }
+         ],
+         "RADB": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.151.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.151.0/24\norigin:         AS21595\ndescr:          BAXTER-ORD-76552189\nmnt-by:         MAINT-AS15695\nchanged:        azman.zaini@expereo.com 20201202  #06:09:49Z\nsource:
+         RADB\n"
+            }
+         ]
+      },
+      "prefix": "198.89.151.0/24",
+      "prefixSortKey": "3327760128/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.128.0/19AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.128.0/19\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        donovan_sproul@baxter.com 20030925\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.128.0/19",
+      "prefixSortKey": "3327754240/19"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.128.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.128.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.128.0/24",
+      "prefixSortKey": "3327754240/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.130.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.130.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.130.0/24",
+      "prefixSortKey": "3327754752/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.129.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.129.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.129.0/24",
+      "prefixSortKey": "3327754496/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.137.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.137.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.137.0/24",
+      "prefixSortKey": "3327756544/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [
+         21595
+      ],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.138.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.138.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.138.0/24",
+      "prefixSortKey": "3327756800/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [
+         21595
+      ],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.158.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.158.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.158.0/24",
+      "prefixSortKey": "3327761920/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.149.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.149.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.149.0/24",
+      "prefixSortKey": "3327759616/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.140.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.140.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.140.0/24",
+      "prefixSortKey": "3327757312/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.132.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.132.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.132.0/24",
+      "prefixSortKey": "3327755264/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [
+         21595
+      ],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.148.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.148.0/24\ndescr:          Frankfurt Data Center\norigin:         AS21595\nmnt-by:         MNT-BXTR\nsource:         ARIN-NONAUTH\nchanged:        hoadley@baxter.com 2020061
+2\nremarks:        ****************************\nremarks:        * THIS OBJECT CONTAINS PLACEHOLDER DATA\nremarks:        * Please note that all data that is generally regarded as personal\nremarks:        * data has been r
+emoved from this object.\nremarks:        * To view the original object, please query the ARIN Database at:\nremarks:        * http://www.arin.net/whois\nremarks:        ****************************\n"
+            }
+         ]
+      },
+      "prefix": "198.89.148.0/24",
+      "prefixSortKey": "3327759360/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.159.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.159.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.159.0/24",
+      "prefixSortKey": "3327762176/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [
+         21595
+      ],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.139.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.139.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.139.0/24",
+      "prefixSortKey": "3327757056/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [
+         21595
+      ],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.143.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.143.0/24\ndescr:          Baxter Healthcare.\ndescr:          Announced by Colt in Japan.\norigin:         AS21595\nmnt-by:         MNT-BXTR\nchanged:        hostmaster@bax
+ter.com 20190826\nsource:         ARIN-NONAUTH\n"
+            }
+         ],
+         "RADB": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.143.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.143.0/24\ndescr:          proxy object for ARIN-NONAUTH customer objects\norigin:         AS21595\nmnt-by:         MAINT-AS8220\nchanged:        mark.borchardt@colt.net 202
+00611\nsource:         RADB\n"
+            }
+         ]
+      },
+      "prefix": "198.89.143.0/24",
+      "prefixSortKey": "3327758080/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [
+         21595
+      ],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "RADB": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.154.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.154.0/24\ndescr:          Proxy-registered route object\norigin:         AS21595\nremarks:        This route object is for a BtN customer route\nremarks:        which is be
+ing exported under this origin AS.\nremarks:\nremarks:        This route object was created because no existing\nremarks:        route object with the same origin was found, and\nremarks:        since some BtN peers filter 
+based on these objects\nremarks:        this route may be rejected if this object is not created.\nremarks:\nremarks:        Please contact peering@cais.net if you have any\nremarks:        questions regarding this object.\
+nmnt-by:         MAINT-AS3491\nchanged:        sajwani@pccwbtn.com 20080416\nsource:         RADB\n"
+            }
+         ]
+      },
+      "prefix": "198.89.154.0/24",
+      "prefixSortKey": "3327760896/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.146.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.146.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.146.0/24",
+      "prefixSortKey": "3327758848/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.144.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.144.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.144.0/24",
+      "prefixSortKey": "3327758336/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.145.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.145.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ],
+         "RADB": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.145.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.145.0/24\norigin:         AS21595\ndescr:          BAXTER-ORD-76552189\nmnt-by:         MAINT-AS15695\nchanged:        azman.zaini@expereo.com 20201202  #06:09:06Z\nsource:
+         RADB\n"
+            }
+         ]
+      },
+      "prefix": "198.89.145.0/24",
+      "prefixSortKey": "3327758592/24"
+   },
+   {
+      "categoryOverall": "danger",
+      "messages": [
+         {
+            "category": "danger",
+            "text": "No route objects match DFZ origin"
+         }
+      ],
+      "bgpOrigins": [
+         21595
+      ],
+      "goodnessOverall": 0,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {},
+      "prefix": "198.89.153.0/24",
+      "prefixSortKey": "3327760640/24"
+   },
+   {
+      "categoryOverall": "warning",
+      "messages": [
+         {
+            "category": "warning",
+            "text": "Expected route object in ARIN, but only found in other IRRs"
+         },
+         {
+            "category": "info",
+            "text": "Route objects exist, but prefix not seen in DFZ"
+         },
+         {
+            "category": "info",
+            "text": "No (covering) RPKI ROA found for route objects"
+         }
+      ],
+      "bgpOrigins": [],
+      "goodnessOverall": 1,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {
+         "ARIN-NONAUTH": [
+            {
+               "rpkiStatus": "NOT_FOUND",
+               "rpslPk": "198.89.152.0/24AS21595",
+               "asn": 21595,
+               "rpkiMaxLength": null,
+               "rpslText": "route:          198.89.152.0/24\ndescr:          Baxter Healthcare\n                1 Baxter Parkway\n                Deerfield, IL 60015\n                US\norigin:         AS21595\nmnt-by:    
+     MNT-BAXTER-16\nchanged:        hoadley@baxter.com 20070709\nsource:         ARIN-NONAUTH\n"
+            }
+         ]
+      },
+      "prefix": "198.89.152.0/24",
+      "prefixSortKey": "3327760384/24"
+   },
+   {
+      "categoryOverall": "danger",
+      "messages": [
+         {
+            "category": "danger",
+            "text": "No route objects match DFZ origin"
+         }
+      ],
+      "bgpOrigins": [
+         21595
+      ],
+      "goodnessOverall": 0,
+      "rir": "ARIN",
+      "rpkiRoutes": [],
+      "irrRoutes": {},
+      "prefix": "198.89.136.0/24",
+      "prefixSortKey": "3327756288/24"
+   }
+]

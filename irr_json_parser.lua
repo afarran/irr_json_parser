@@ -6,7 +6,7 @@ if not inputJsonFile then
   return
 end
 
-local outputCsvFile = inputJsonFile:lower():gsub("\\.json", "\\.csv")
+local outputCsvFile = inputJsonFile:lower():gsub(".json", ".csv")
 print("Reading from ", inputJsonFile)
 local fileHandle, err = io.open(inputJsonFile, "r")
 if fileHandle then
