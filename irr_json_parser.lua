@@ -6,13 +6,13 @@ if not inputJsonFile then
   return
 end
 
-local outputCsvFile = inputJsonFile:lower():gsub(".json", ".csv")
 print("Reading from ", inputJsonFile)
 local fileHandle, err = io.open(inputJsonFile, "r")
 if fileHandle then
   local jsonText = fileHandle:read("*a"):gsub("%c", "") --remove control characters
   fileHandle:close()
   local jsonTable = json.decode(jsonText)
+  local outputCsvFile = inputJsonFile:lower():gsub("(%.%w+)$", "")..".csv"
   print("Writing to ", outputCsvFile)
   fileHandle = io.open(outputCsvFile, "w")
   if fileHandle then
